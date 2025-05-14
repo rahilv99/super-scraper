@@ -16,7 +16,7 @@ MAX_RETRIES = 10
 BASE_DELAY = 0.33
 MAX_DELAY = 15
 
-from logic.article_resource import ArticleResource
+from article_resource import ArticleResource
 
 class GoogleNewsScraper(ArticleResource):
     """
